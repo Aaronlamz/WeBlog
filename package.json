@@ -1,0 +1,24 @@
+{
+  "name": "weblog",
+  "version": "1.0.0",
+  "description": "Open-source personal blog system based on Nuxt.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronlamz/weblog.git"
+  },
+  "keywords": [
+    "node",
+    "blog",
+    "nuxt"
+  ],
+  "author": "aaronlamz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronlamz/weblog/issues"
+  },
+  "homepage": "https://github.com/aaronlamz/weblog#readme"
+}
