@@ -1,8 +1,8 @@
 <template>
-  <h1>Index page</h1>
+  <h1>Detail page</h1>
 </template>
 <script setup>
 definePageMeta({
-  layout: "default",
+  layout: "detail",
 });
 </script>
