@@ -1,8 +1,9 @@
-<template>
-  <h1>Detail page</h1>
+<template lang="pug">
+div
+  h1 Details page
 </template>
 <script setup>
 definePageMeta({
-  layout: "detail",
-});
+  layout: 'detail'
+})
 </script>

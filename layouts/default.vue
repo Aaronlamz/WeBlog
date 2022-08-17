@@ -2,7 +2,7 @@
   <div>
     layout header
     layout sider
-    <slot/>
+    <slot />
     layout footer
   </div>
 </template>

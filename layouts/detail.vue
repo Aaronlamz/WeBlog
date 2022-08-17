@@ -1,7 +1,7 @@
 <template>
   <div>
     layout header
-    <slot/>
+    <slot />
     layout footer
   </div>
 </template>
