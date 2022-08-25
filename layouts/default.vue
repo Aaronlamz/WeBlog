@@ -1,8 +1,6 @@
-<template>
-  <div>
-    layout header
-    layout sider
-    <slot />
-    layout footer
-  </div>
+<template lang="pug">
+.layout__default
+  LayoutHeader
+  slot
+  LayoutFooter
 </template>
