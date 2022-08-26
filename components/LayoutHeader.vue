@@ -6,7 +6,7 @@ header.weblog-header
         .logo logo
         .text Weblog
 </template>
-<style lang="less">
+<style lang="less" scoped>
 .weblog-nav{
   padding: 0 32px;
   height: 56px;
