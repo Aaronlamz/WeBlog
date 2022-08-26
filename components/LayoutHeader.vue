@@ -3,13 +3,13 @@ header.weblog-header
   .weblog-nav
     .container
       .title
-        .logo logo
+        .logo
+          img(src="~/assets/images/logo.jpeg")
         .text Weblog
 </template>
 <style lang="less" scoped>
 .weblog-nav{
   padding: 0 32px;
-  height: 56px;
   border-bottom: 1px solid #ccc;
   .container{
     display: flex;
