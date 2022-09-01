@@ -4,6 +4,6 @@ div
 </template>
 <script setup>
 definePageMeta({
-  layout: 'detail'
+    layout: 'detail',
 })
 </script>

@@ -4,5 +4,5 @@
     NuxtPage
 </template>
 <style lang="less">
-@import "~/assets/style/index.less";
+@import '~/assets/style/index.less';
 </style>
