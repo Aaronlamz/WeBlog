@@ -1,11 +1,11 @@
 <template lang="pug">
 header.weblog-header
-  .weblog-nav
-    .container
-      .title
-        .logo
-         img(src="~/assets/images/logo.jpeg")
-        .text Weblog
+    .weblog-nav
+        .container
+            .title
+                .logo
+                    img(src='~/assets/images/logo.jpeg')
+                .text Weblog
 </template>
 <style lang="less" scoped>
 .weblog-nav {
