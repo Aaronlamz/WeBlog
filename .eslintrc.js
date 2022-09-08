@@ -1,12 +1,10 @@
 // https://v3.nuxtjs.org/community/contribution/#use-eslint
+// https://typescript.nuxtjs.org/guide/lint/
 module.exports = {
-    extends: [
-        'plugin:vue/recommended',
-        'plugin:prettier-vue/recommended',
-        // '@nuxtjs/eslint-config-typescript',
-        'prettier',
-    ],
-    rules: {
-        'vue/multi-word-component-names': 'off',
-    },
-}
+  root: true,
+  extends: [
+    '@nuxtjs/eslint-config-typescript',
+    'plugin:nuxt/recommended',
+    'plugin:prettier/recommended',
+  ],
+};

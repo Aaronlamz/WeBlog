@@ -5,7 +5,7 @@ footer.weblog-footer
 </template>
 <style lang="less" scoped>
 .container {
-    padding: 16px;
-    text-align: center;
+  padding: 16px;
+  text-align: center;
 }
 </style>

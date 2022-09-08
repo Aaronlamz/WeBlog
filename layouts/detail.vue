@@ -1,7 +1,7 @@
 <template>
-    <div>
-        layout header
-        <slot />
-        layout footer
-    </div>
+  <div>
+    layout header
+    <slot />
+    layout footer
+  </div>
 </template>
