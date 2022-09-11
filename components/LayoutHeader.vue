@@ -2,7 +2,7 @@
 header.weblog-header
   .weblog-nav
     .container
-      .title
+      .top-nav
         .logo
           img(src='~/assets/images/logo.jpeg')
         .text Weblog
@@ -15,6 +15,16 @@ header.weblog-header
     display: flex;
     height: 100%;
     align-items: center;
+  }
+  .top-nav {
+    display: flex;
+    align-items: center;
+    .logo {
+      img {
+        display: block;
+        height: 36px;
+      }
+    }
   }
 }
 </style>
