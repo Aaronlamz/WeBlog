@@ -2,7 +2,7 @@
 header.w-header
   .top-nav
     .logo
-      img(src='~/assets/images/logo.jpeg')
+      img(src='~/assets/images/logo.jpeg' alt="logo")
     .text Weblog
 </template>
 <style lang="less" scoped>
@@ -10,6 +10,8 @@ header.w-header
   display: flex;
   align-items: center;
   .logo {
+    border-radius: 50%;
+    overflow: hidden;
     img {
       display: block;
       height: 36px;
