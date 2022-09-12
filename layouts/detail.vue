@@ -1,6 +1,7 @@
 <template lang="pug">
 .layout__detail
   LayoutHeader
-  slot
+  .main-container
+    slot
   LayoutFooter
 </template>
