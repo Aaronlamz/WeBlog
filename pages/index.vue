@@ -1,6 +1,5 @@
 <template lang="pug">
-.weblog-conatiner
-    | weblog-conatiner
+h1 index page
 </template>
 <script setup>
 definePageMeta({
