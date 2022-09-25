@@ -8,7 +8,11 @@ header.w-header
     .right-item
       .right-item__menu
         .menu__item Tags
+        .menu__item Projects
         .menu__item About
+  .banner-container
+    .banner__body
+      .banner__text Welcome to my open source world
 </template>
 <style lang="less" scoped>
 .top-nav {
@@ -39,6 +43,22 @@ header.w-header
     .menu__item {
       padding: 0 10px;
     }
+  }
+}
+
+.banner-container {
+  .banner__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background: url('~/assets/images/banner.jpg') center center no-repeat;
+    background-size: cover;
+  }
+  .banner__text {
+    font-size: 34px;
+    color: @front-bg-color;
   }
 }
 </style>
