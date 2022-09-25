@@ -17,9 +17,9 @@ definePageMeta({
 <style lang="less" scoped>
 .main {
   background-color: @front-bg-color;
+  padding: 20px;
 }
 .post-container {
-  width: 95%;
   min-height: 500px;
   max-width: 1200px;
   margin: 0 auto;
