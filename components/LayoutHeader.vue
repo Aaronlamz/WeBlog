@@ -7,9 +7,12 @@ header.w-header
       .title Aaron's Space
     .right-item
       .right-item__menu
-        .menu__item Tags
-        .menu__item Projects
-        .menu__item About
+        .menu__item
+          NuxtLink(to="/Tags") Tags
+        .menu__item
+          NuxtLink(to="/Projects") Projects
+        .menu__item
+          NuxtLink(to="/about") About
   .banner-container
     .banner__body
       .banner__text Welcome to my open source world
